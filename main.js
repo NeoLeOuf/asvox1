@@ -8,7 +8,7 @@ bot.on('ready', () => {
     console.log("Je viens de me connecter !");
 });
 
-bot.login('NDU3OTIxNzYzMzA1NTg2NzA5.DggUng.jtm1-_Ek6nMXAC5yIsK9bGyj4Wc')
+bot.login('process.env.TOKEN')
 
 bot.on('message', message => {
     if (message.content === prefix + "roles"){
